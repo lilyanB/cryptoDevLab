@@ -8,11 +8,13 @@ This repository houses a collection of outils related to the Ethereum blockchain
 
 ## Included Outils
 
-1. [Merkle Trees](/contracts/Whitelist.sol) - Solidity of the "Merkle Trees" outils.
+1. [Merkle Trees](/contracts/MerkleTrees.sol) - Solidity of the "Merkle Trees" outils.
 2. [Flash Loans](/contracts/FlashLoanExample.sol) - Solidity of the "Flash Loans" outils.
 3. [Re-entrancy](/contracts/Re-entrancy.sol) - Solidity of the "Re-entrancy" outils.
 4. [Access private data](/contracts/Login.sol) - Solidity of the "Access private data" outils.
 5. [Delegatecall](/contracts/Delegatecall.sol) - Solidity of the "Delegatecall" outils.
+6. [NoRandom](/contracts/NoRandom.sol) - Solidity of the "NoRandom" outils. follow [Chainlink VRF](https://chain.link/vrf)
+
 
 ## Repository Structure
 
