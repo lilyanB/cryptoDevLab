@@ -14,6 +14,7 @@ This repository houses a collection of outils related to the Ethereum blockchain
 4. [Access private data](/contracts/Login.sol) - Solidity of the "Access private data" outils.
 5. [Delegatecall](/contracts/Delegatecall.sol) - Solidity of the "Delegatecall" outils.
 6. [NoRandom](/contracts/NoRandom.sol) - Solidity of the "NoRandom" outils. follow [Chainlink VRF](https://chain.link/vrf)
+7. [DOS](/contracts/DOS.sol) - Solidity of the "DOS" outils.
 
 
 ## Repository Structure

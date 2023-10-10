@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 const hre = require("hardhat");
 
-describe("Attack", () => {
+describe("AttackRe-entrancy", () => {
     it("Should empty the balance of the Good Contract", async () => {
         // Deploy the Good Contract
         const goodContract = await hre.ethers.deployContract("GoodContract", []);

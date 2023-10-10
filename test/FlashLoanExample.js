@@ -19,10 +19,6 @@ describe("Flash Loans", function () {
         // Fetch the DAI smart contract
         const token = await hre.ethers.getContractAt("IERC20", DAI);
 
-
-        const firstBalance = await token.balanceOf(flashLoanExample.target);
-        console.log(firstBalance)
-
         // Move 2000 DAI from DAI_WHALE to our contract by impersonating them
         const BALANCE_AMOUNT_DAI = hre.ethers.parseEther("2000");
         const signer = await ethers.getImpersonatedSigner(DAI_WHALE);
@@ -37,8 +33,6 @@ describe("Flash Loans", function () {
         // By this point, we should have executed the flash loan and paid back (10,000 + premium) DAI to Aave
         // Let's check our contract's remaining DAI balance to see how much it has left
         const remainingBalance = await token.balanceOf(flashLoanExample.target);
-
-        console.log(remainingBalance)
 
         // Our remaining balance should be <2000 DAI we originally had, because we had to pay the premium
         expect(remainingBalance).to.lessThan(BALANCE_AMOUNT_DAI);

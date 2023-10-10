@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 const hre = require("hardhat");
 
-describe("delegatecall Attack", () => {
+describe("Delegatecall Attack", () => {
     it("Should change the owner of the Good Contract", async () => {
         // Deploy the Helper Contract
         const helperContract = await hre.ethers.deployContract("Helper", []);
