@@ -13,3 +13,6 @@
 [submodule "AccountAbstraction/multisig-scw/contracts/lib/account-abstraction"]
 	path = AccountAbstraction/multisig-scw/contracts/lib/account-abstraction
 	url = https://github.com/eth-infinitism/account-abstraction
+[submodule "AccountAbstraction/multisig-scw/contracts/lib/forge-std"]
+	path = AccountAbstraction/multisig-scw/contracts/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
