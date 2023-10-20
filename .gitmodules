@@ -1,12 +1,3 @@
-[submodule "Account Abstraction/multisig-scw/contracts/lib/forge-std"]
-	path = Account Abstraction/multisig-scw/contracts/lib/forge-std
-	url = https://github.com/foundry-rs/forge-std
-[submodule "Account Abstraction/multisig-scw/contracts/lib/openzeppelin-contracts"]
-	path = Account Abstraction/multisig-scw/contracts/lib/openzeppelin-contracts
-	url = https://github.com/OpenZeppelin/openzeppelin-contracts
-[submodule "Account Abstraction/multisig-scw/contracts/lib/account-abstraction"]
-	path = Account Abstraction/multisig-scw/contracts/lib/account-abstraction
-	url = https://github.com/eth-infinitism/account-abstraction
 [submodule "AccountAbstraction/multisig-scw/contracts/lib/openzeppelin-contracts"]
 	path = AccountAbstraction/multisig-scw/contracts/lib/openzeppelin-contracts
 	url = https://github.com/OpenZeppelin/openzeppelin-contracts
